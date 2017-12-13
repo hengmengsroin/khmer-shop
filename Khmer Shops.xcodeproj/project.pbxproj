@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16AC60751C872B837D41B9EA /* Pods_Khmer_Shops.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 730C839D641B1AEC9D3E1412 /* Pods_Khmer_Shops.framework */; };
 		60328E381FDA0C6A007348CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60328E371FDA0C6A007348CE /* AppDelegate.swift */; };
-		60328E3A1FDA0C6A007348CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60328E391FDA0C6A007348CE /* ViewController.swift */; };
 		60328E3D1FDA0C6A007348CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60328E3B1FDA0C6A007348CE /* Main.storyboard */; };
 		60328E401FDA0C6A007348CE /* Khmer_Shops.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60328E3E1FDA0C6A007348CE /* Khmer_Shops.xcdatamodeld */; };
 		60328E421FDA0C6A007348CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60328E411FDA0C6A007348CE /* Assets.xcassets */; };
 		60328E451FDA0C6A007348CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60328E431FDA0C6A007348CE /* LaunchScreen.storyboard */; };
+		603781FA1FDE7941004B20A5 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603781F91FDE7941004B20A5 /* RestaurantTableViewController.swift */; };
+		603781FC1FDE7CEC004B20A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 603781FB1FDE7CEC004B20A5 /* GoogleService-Info.plist */; };
+		603781FE1FDE7D29004B20A5 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603781FD1FDE7D29004B20A5 /* Restaurant.swift */; };
+		603782001FDE7FE0004B20A5 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603781FF1FDE7FE0004B20A5 /* RestaurantTableViewCell.swift */; };
+		60B74B391FDFC68E00AEE8CF /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B74B381FDFC68E00AEE8CF /* RestaurantDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		60328E341FDA0C6A007348CE /* Khmer Shops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Khmer Shops.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60328E371FDA0C6A007348CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60328E391FDA0C6A007348CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60328E3C1FDA0C6A007348CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60328E3F1FDA0C6A007348CE /* Khmer_Shops.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Khmer_Shops.xcdatamodel; sourceTree = "<group>"; };
 		60328E411FDA0C6A007348CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60328E441FDA0C6A007348CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60328E461FDA0C6A007348CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		603781F91FDE7941004B20A5 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		603781FB1FDE7CEC004B20A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		603781FD1FDE7D29004B20A5 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		603781FF1FDE7FE0004B20A5 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		60B74B381FDFC68E00AEE8CF /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		730C839D641B1AEC9D3E1412 /* Pods_Khmer_Shops.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Khmer_Shops.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70C726AC235AA6D93FA6743 /* Pods-Khmer Shops.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Khmer Shops.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Khmer Shops/Pods-Khmer Shops.debug.xcconfig"; sourceTree = "<group>"; };
+		F9AC8E56BF7364C30DB1C707 /* Pods-Khmer Shops.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Khmer Shops.release.xcconfig"; path = "Pods/Target Support Files/Pods-Khmer Shops/Pods-Khmer Shops.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16AC60751C872B837D41B9EA /* Pods_Khmer_Shops.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		139E37948807E18F337CAEF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A70C726AC235AA6D93FA6743 /* Pods-Khmer Shops.debug.xcconfig */,
+				F9AC8E56BF7364C30DB1C707 /* Pods-Khmer Shops.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		60328E2B1FDA0C6A007348CE = {
 			isa = PBXGroup;
 			children = (
 				60328E361FDA0C6A007348CE /* Khmer Shops */,
 				60328E351FDA0C6A007348CE /* Products */,
+				139E37948807E18F337CAEF9 /* Pods */,
+				C48C74CE5B6F18306B9905E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +81,26 @@
 			isa = PBXGroup;
 			children = (
 				60328E371FDA0C6A007348CE /* AppDelegate.swift */,
-				60328E391FDA0C6A007348CE /* ViewController.swift */,
 				60328E3B1FDA0C6A007348CE /* Main.storyboard */,
 				60328E411FDA0C6A007348CE /* Assets.xcassets */,
 				60328E431FDA0C6A007348CE /* LaunchScreen.storyboard */,
 				60328E461FDA0C6A007348CE /* Info.plist */,
+				603781FB1FDE7CEC004B20A5 /* GoogleService-Info.plist */,
 				60328E3E1FDA0C6A007348CE /* Khmer_Shops.xcdatamodeld */,
+				603781F91FDE7941004B20A5 /* RestaurantTableViewController.swift */,
+				603781FD1FDE7D29004B20A5 /* Restaurant.swift */,
+				603781FF1FDE7FE0004B20A5 /* RestaurantTableViewCell.swift */,
+				60B74B381FDFC68E00AEE8CF /* RestaurantDetailViewController.swift */,
 			);
 			path = "Khmer Shops";
+			sourceTree = "<group>";
+		};
+		C48C74CE5B6F18306B9905E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				730C839D641B1AEC9D3E1412 /* Pods_Khmer_Shops.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60328E491FDA0C6A007348CE /* Build configuration list for PBXNativeTarget "Khmer Shops" */;
 			buildPhases = (
+				5A1549638F115AB889E67095 /* [CP] Check Pods Manifest.lock */,
 				60328E301FDA0C6A007348CE /* Sources */,
 				60328E311FDA0C6A007348CE /* Frameworks */,
 				60328E321FDA0C6A007348CE /* Resources */,
+				EFCD487C2800ACF9C65CD267 /* [CP] Embed Pods Frameworks */,
+				858F4F2B0B6B575F04F7C1B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,7 +138,7 @@
 				TargetAttributes = {
 					60328E331FDA0C6A007348CE = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -127,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60328E451FDA0C6A007348CE /* LaunchScreen.storyboard in Resources */,
+				603781FC1FDE7CEC004B20A5 /* GoogleService-Info.plist in Resources */,
 				60328E421FDA0C6A007348CE /* Assets.xcassets in Resources */,
 				60328E3D1FDA0C6A007348CE /* Main.storyboard in Resources */,
 			);
@@ -134,14 +174,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A1549638F115AB889E67095 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Khmer Shops-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		858F4F2B0B6B575F04F7C1B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Khmer Shops/Pods-Khmer Shops-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFCD487C2800ACF9C65CD267 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Khmer Shops/Pods-Khmer Shops-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Khmer Shops/Pods-Khmer Shops-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60328E301FDA0C6A007348CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60328E3A1FDA0C6A007348CE /* ViewController.swift in Sources */,
+				603782001FDE7FE0004B20A5 /* RestaurantTableViewCell.swift in Sources */,
+				603781FE1FDE7D29004B20A5 /* Restaurant.swift in Sources */,
 				60328E381FDA0C6A007348CE /* AppDelegate.swift in Sources */,
 				60328E401FDA0C6A007348CE /* Khmer_Shops.xcdatamodeld in Sources */,
+				60B74B391FDFC68E00AEE8CF /* RestaurantDetailViewController.swift in Sources */,
+				603781FA1FDE7941004B20A5 /* RestaurantTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,13 +379,16 @@
 		};
 		60328E4A1FDA0C6A007348CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70C726AC235AA6D93FA6743 /* Pods-Khmer Shops.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Khmer Shops/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ckcc.Khmer-Shops";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -290,13 +396,16 @@
 		};
 		60328E4B1FDA0C6A007348CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9AC8E56BF7364C30DB1C707 /* Pods-Khmer Shops.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Khmer Shops/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ckcc.Khmer-Shops";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

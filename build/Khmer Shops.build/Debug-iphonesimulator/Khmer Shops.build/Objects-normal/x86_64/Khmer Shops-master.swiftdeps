@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "8a64a7a3ddd7ab02feab9226088f3a0e"
+build_time: [1513067493, 49106000]
+inputs:
+  "/Users/mengsroinheng/Xcode/Khmer Shops/Khmer Shops/RestaurantTableViewCell.swift": [1512983541, 0]
+  "/Users/mengsroinheng/Xcode/Khmer Shops/Khmer Shops/Restaurant.swift": [1512982625, 0]
+  "/Users/mengsroinheng/Xcode/Khmer Shops/Khmer Shops/AppDelegate.swift": [1512981930, 0]
+  "/Users/mengsroinheng/Xcode/Khmer Shops/Khmer Shops/RestaurantDetailViewController.swift": [1513067492, 0]
+  "/Users/mengsroinheng/Xcode/Khmer Shops/Khmer Shops/RestaurantTableViewController.swift": [1513066537, 0]

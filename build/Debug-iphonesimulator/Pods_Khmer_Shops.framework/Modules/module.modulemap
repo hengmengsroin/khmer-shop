@@ -1,0 +1,6 @@
+framework module Pods_Khmer_Shops {
+  umbrella header "Pods-Khmer Shops-umbrella.h"
+
+  export *
+  module * { export * }
+}
